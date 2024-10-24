@@ -57,7 +57,7 @@ class Game:
                 if col == 'x':
                     x = x_start + col_index * self.block_size + offset_x
                     y = y_start + row_index * self.block_size
-                    block = obstacle.Block(self.block_size, (241, 79, 80), x, y)
+                    block = obstacle.Block(self.block_size, (255, 153, 0), x, y)
                     self.blocks.add(block)
 
     def create_multiple_obstacles(self, *offset, x_start, y_start):
@@ -185,16 +185,28 @@ class Game:
 
 if __name__ == '__main__':
     pygame.init()
-    background = pygame.image.load('./graphics/background.png')
+    
     screen_info = pygame.display.Info()
     screen_width = screen_info.current_w
     screen_height = screen_info.current_h
+    
+    # Set the display mode before loading images
     screen = pygame.display.set_mode((screen_width, screen_height), pygame.FULLSCREEN)
+    
+    # Load and scale the background image
+    background = pygame.image.load('./graphics/background.png').convert()
+    background = pygame.transform.scale(background, (screen_width, screen_height))
+    
+    # Create a semi-transparent black surface
+    overlay = pygame.Surface((screen_width, screen_height))
+    overlay.fill((0, 0, 0))  # Fill it with black
+    overlay.set_alpha(25)  # Set the alpha value (10% opacity)
+
     clock = pygame.time.Clock()
     game = Game()
 
     ALIENLASER = pygame.USEREVENT + 1
-    pygame.time.set_timer(ALIENLASER,700)
+    pygame.time.set_timer(ALIENLASER, 700)
 
     while True:
         for event in pygame.event.get():
@@ -206,7 +218,13 @@ if __name__ == '__main__':
             if not game.game_active and event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
                 game.reset_game()
 
-        screen.fill((30,30,30))
+        # Draw the background
+        screen.blit(background, (0, 0))  # Blit the background at the top-left corner
+        
+        # Blit the semi-transparent overlay
+        screen.blit(overlay, (0, 0))  # Blit the overlay at the top-left corner
+
+        # Run the game logic
         game.run()
 
         pygame.display.flip()
