@@ -12,7 +12,7 @@ class Player(pygame.sprite.Sprite):
         self.max_x_constraint = constraint
         self.ready = True
         self.laser_time = 0
-        self.laser_cooldown = 600
+        self.laser_cooldown = 700
         self.direction = 0
         self.screen_width = constraint
 
@@ -91,8 +91,8 @@ class Alien(pygame.sprite.Sprite):
 		self.bob_offset = 0
 
 		if color == 'red': self.value = 100
-		elif color == 'green': self.value = 200
-		else: self.value = 300
+		elif color == 'green': self.value = 300
+		else: self.value = 500
 
 	def update(self,direction):
 		self.rect.x += direction
@@ -107,10 +107,10 @@ class Extra(pygame.sprite.Sprite):
 		
 		if side == 'right':
 			x = screen_width + 50
-			self.speed = - 3
+			self.speed = - 4
 		else:
 			x = -50
-			self.speed = 3
+			self.speed = 4
 
 		self.rect = self.image.get_rect(topleft = (x,80))
 
@@ -187,14 +187,14 @@ class Game:
         self.shape = shape
         self.block_size = 6
         self.blocks = pygame.sprite.Group()
-        self.obstacle_amount = 4
+        self.obstacle_amount = 6
         self.obstacle_x_positions = [num * (screen_width / self.obstacle_amount) for num in range(self.obstacle_amount)]
         self.create_multiple_obstacles(*self.obstacle_x_positions, x_start=screen_width / 15, y_start=480)
 
         # Alien setup
         self.aliens = pygame.sprite.Group()
         self.alien_lasers = pygame.sprite.Group()
-        self.alien_setup(rows=1, cols=1)
+        self.alien_setup(rows=7, cols=11)
         self.alien_direction = 1
 
         # Extra alien setup
@@ -368,8 +368,8 @@ if __name__ == '__main__':
     pygame.init()
 
     screen_info = pygame.display.Info()
-    screen_width = screen_info.current_w
-    screen_height = screen_info.current_h
+    screen_width = 1280
+    screen_height = 720
     screen = pygame.display.set_mode((screen_width, screen_height), pygame.FULLSCREEN)
 
     background = pygame.image.load('./graphics/background.png').convert()
