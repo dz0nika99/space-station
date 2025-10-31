@@ -1,0 +1,71 @@
+{
+  "": {
+    "swift-dependencies": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/master.swiftdeps"
+  },
+  "/Users/nikolapopovic/Herd/space-station/space_station_native/SpaceStation/Sources/AppDelegate.swift": {
+    "dependencies": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/AppDelegate.d",
+    "object": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/AppDelegate.swift.o",
+    "swiftmodule": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/AppDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/AppDelegate.swiftdeps"
+  },
+  "/Users/nikolapopovic/Herd/space-station/space_station_native/SpaceStation/Sources/Controllers/GameViewController.swift": {
+    "dependencies": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/GameViewController.d",
+    "object": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/GameViewController.swift.o",
+    "swiftmodule": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/GameViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/GameViewController.swiftdeps"
+  },
+  "/Users/nikolapopovic/Herd/space-station/space_station_native/SpaceStation/Sources/Models/Alien.swift": {
+    "dependencies": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/Alien.d",
+    "object": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/Alien.swift.o",
+    "swiftmodule": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/Alien~partial.swiftmodule",
+    "swift-dependencies": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/Alien.swiftdeps"
+  },
+  "/Users/nikolapopovic/Herd/space-station/space_station_native/SpaceStation/Sources/Models/Block.swift": {
+    "dependencies": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/Block.d",
+    "object": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/Block.swift.o",
+    "swiftmodule": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/Block~partial.swiftmodule",
+    "swift-dependencies": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/Block.swiftdeps"
+  },
+  "/Users/nikolapopovic/Herd/space-station/space_station_native/SpaceStation/Sources/Models/Extra.swift": {
+    "dependencies": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/Extra.d",
+    "object": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/Extra.swift.o",
+    "swiftmodule": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/Extra~partial.swiftmodule",
+    "swift-dependencies": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/Extra.swiftdeps"
+  },
+  "/Users/nikolapopovic/Herd/space-station/space_station_native/SpaceStation/Sources/Models/Laser.swift": {
+    "dependencies": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/Laser.d",
+    "object": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/Laser.swift.o",
+    "swiftmodule": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/Laser~partial.swiftmodule",
+    "swift-dependencies": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/Laser.swiftdeps"
+  },
+  "/Users/nikolapopovic/Herd/space-station/space_station_native/SpaceStation/Sources/Models/Player.swift": {
+    "dependencies": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/Player.d",
+    "object": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/Player.swift.o",
+    "swiftmodule": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/Player~partial.swiftmodule",
+    "swift-dependencies": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/Player.swiftdeps"
+  },
+  "/Users/nikolapopovic/Herd/space-station/space_station_native/SpaceStation/Sources/SceneDelegate.swift": {
+    "dependencies": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/SceneDelegate.d",
+    "object": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/SceneDelegate.swift.o",
+    "swiftmodule": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/SceneDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/SceneDelegate.swiftdeps"
+  },
+  "/Users/nikolapopovic/Herd/space-station/space_station_native/SpaceStation/Sources/Utilities/GameSceneDelegate.swift": {
+    "dependencies": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/GameSceneDelegate.d",
+    "object": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/GameSceneDelegate.swift.o",
+    "swiftmodule": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/GameSceneDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/GameSceneDelegate.swiftdeps"
+  },
+  "/Users/nikolapopovic/Herd/space-station/space_station_native/SpaceStation/Sources/Utilities/PhysicsCategory.swift": {
+    "dependencies": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/PhysicsCategory.d",
+    "object": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/PhysicsCategory.swift.o",
+    "swiftmodule": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/PhysicsCategory~partial.swiftmodule",
+    "swift-dependencies": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/PhysicsCategory.swiftdeps"
+  },
+  "/Users/nikolapopovic/Herd/space-station/space_station_native/SpaceStation/Sources/Views/GameScene.swift": {
+    "dependencies": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/GameScene.d",
+    "object": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/GameScene.swift.o",
+    "swiftmodule": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/GameScene~partial.swiftmodule",
+    "swift-dependencies": "/Users/nikolapopovic/Herd/space-station/space_station_native/.build/arm64-apple-macosx/debug/SpaceStation.build/GameScene.swiftdeps"
+  }
+}
